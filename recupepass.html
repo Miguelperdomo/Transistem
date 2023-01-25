@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+    <title>Recuperar Contraseña</title>
+</head>
+<body>
+    <section id="bannerolvidopass">        
+        <div class="container col-5">
+            <div class="boxformpass"> 
+                <div class="container col-5">
+                    <img src="img/puriesturlogo.png" alt="referen">              
+                </div>
+                <br>
+                <!-- Formulario para validar correo -->
+                <form form method ="POST" name = "formreg" autocomplete = "off" id="form" action ="includes/restablecer.php">
+                    <h4 class="text-center">Recuperar contraseña</h4> <br>
+                    <p class="text-center">Introduzca su número de documento y correo electronico para confirmar su cuenta:</p><br>
+                    <input type="number" name = "doc" class="form-control text-center" id="docu" placeholder = "Documento">
+                    <center><small>El número de documento debe tener mas de 7 numeros</small></center>
+                    <center><div class="warnings" id="warnings2"></div></center>
+                    <br>
+                    <input type="text" id="email" name="email"  class="form-control text-center" placeholder = "Correo electrónico">
+                    <!-- <center><small>El Correo debe ser valida</small></center> -->
+                    <center><div class="warnings" id="warnings1"></div></center><br>
+                    
+                    <div class="col-12">
+                        <input type="submit" class="btn btn-primary " name="inicio" value="Validar"> 
+                        <a href="login.php"><button type="button" class="btn btn-secondary">Volver</button></a>
+                    </div>                                                 
+                </form>                                      
+            </div>
+        </div>                               
+    </section>  
+    <script src="js/valicorreo.js"></script>  
+</body>
+</html>

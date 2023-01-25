@@ -1,0 +1,150 @@
+/* @import url('reset.css');Desactiva estilos del navegador por defecto, para que se apliquen los nuestros */
+
+/* .input-group-text{
+    width: 150px;
+} */
+
+.btn-blue{
+    background-color: #084288;
+    color: white;
+    margin-right: 20px;
+    z-index: 1;
+    float: right;
+}
+
+.btn-gold{
+    background-color: #f3bc0d;
+    font-weight: bold;
+    color: rgb(27, 25, 1);
+    margin-right: 20px;
+    z-index: 1;
+    float: right;
+}
+
+.btn-blueruta{
+    background-color: #084288;
+    color: white;
+    margin-right: 55px;
+    z-index: 1;
+    float: right;
+}
+
+.btn-blue:hover{
+    background-color: #4f7eac;
+    color: white;
+    border: 1px solid;
+}
+
+.btn-blueruta:hover{
+    background-color: #4f7eac;
+    color: white;
+    border: 1px solid;
+}
+.mb-0{
+    color: #084288;
+}
+
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: #4f7eac !Important;
+    border: solid 1px #4f7eac !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: #4f7eac !Important;
+    border: solid 1px #4f7eac;
+}
+
+.center{
+    margin-left: 475px;
+}
+
+.center1{
+    margin-left: 0;
+}
+
+.center2{
+    margin-left: 410px;
+}
+
+.center21{
+    margin-left: 450px;
+}
+
+.center3{
+    margin-left: 250px;
+}
+
+.center4{
+   background-color: #ffffff;
+   width: 1000px;
+   margin-top: 20px;
+   padding: 20px;
+   border-radius: 5px;
+   border-color: #4f7eac;
+}
+
+.boxformpass{
+    width: 500px;
+    margin-top: 70px;
+}
+
+.card{
+    width: 500px;
+    margin: auto;
+    margin-top: 20px ;
+    background-color: white; 
+}
+
+.submit{
+    float: left;
+}
+
+.panle-body{
+    margin-left: 450px;  
+}
+
+.tam{
+    width: 200px;
+    height: 80px;
+    font-size: 20px;
+}
+
+.tam1{
+    width: 180px;
+    height: 70px;
+    font-size: 20px;
+}
+.tam:hover{
+    background-color: #ffffff;
+    color: #084288;
+}
+
+.tam1:hover{
+    background-color: #ffffff;
+    color: #084288;
+}
+
+table{
+    text-align: center;
+}
+
+.foto{
+    margin-left: 25px;
+}
+
+/* span.status{
+    padding: 2px 4px;
+    background: #2cc05d;
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+} */
+
+.fs-5{
+    height: 100px;
+}

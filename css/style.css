@@ -1,0 +1,173 @@
+/* @import url('reset.css');Desactiva estilos del navegador por defecto, para que se apliquen los nuestros */
+
+.input-group-text{
+    width: 150px;
+}
+
+.input-group-text.label{
+    width: 180px;
+}
+
+.btn-blue{
+    background-color: #084288;
+    color: white;
+    margin-right: 20px;
+    z-index: 1;
+    float: right;
+}
+
+.btn-red{
+    background-color: #be2424;
+    color: white;
+    margin-right: 20px;
+    z-index: 1;
+    float: right;
+}
+
+.btn-red:hover{
+    background-color: #ca5353;
+    color: white;
+    border: 1px solid;
+}
+
+.btn-blueruta{
+    background-color: #084288;
+    color: white;
+    margin-right: 55px;
+    z-index: 1;
+    float: right;
+}
+
+.btn-blue:hover{
+    background-color: #4f7eac;
+    color: white;
+    border: 1px solid;
+}
+
+.btn-blueruta:hover{
+    background-color: #4f7eac;
+    color: white;
+    border: 1px solid;
+}
+.mb-0{
+    color: #084288;
+}
+
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: #4f7eac !Important;
+    border: solid 1px #4f7eac !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: #4f7eac !Important;
+    border: solid 1px #4f7eac;
+}
+
+.center{
+    margin-left: 475px;
+}
+
+.center1{
+    margin-left: 0;
+}
+
+.center12{
+    margin-left: 120px;
+}
+.center2{
+    margin-left: 450px;
+}
+
+.center21{
+    margin-left: 450px;
+}
+
+.center3{
+    margin-left: 250px;
+}
+
+.center4{
+   background-color: #ffffff;
+   width: 500px;
+   margin-top: 20px;
+   padding: 20px;
+   border-radius: 5px;
+   border-color: #4f7eac;
+}
+
+.center5{
+    background-color: #ffffff;
+    width: 500px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    border-color: #4f7eac;
+ }
+.boxformpass{
+    width: 500px;
+    margin-top: 70px;
+}
+
+.card{
+    width: 500px;
+    margin: auto;
+    margin-top: 20px ;
+    background-color: white; 
+}
+
+.submit{
+    float: left;
+}
+
+.panle-body{
+    margin-left: 450px;  
+}
+
+.tam{
+    width: 200px;
+    height: 80px;
+    font-size: 20px;
+}
+
+.tam1{
+    width: 180px;
+    height: 70px;
+    font-size: 20px;
+}
+.tam:hover{
+    background-color: #ffffff;
+    color: #084288;
+}
+
+.tam1:hover{
+    background-color: #ffffff;
+    color: #084288;
+}
+
+table{
+    text-align: center;
+}
+
+.foto{
+    margin-left: 25px;
+}
+
+.col-6{
+    
+    background-color: #ffffff;
+}
+
+/*-----Validación-----*/
+.warnings{
+	width: 250px;
+	font-size: 12px;
+	text-align: center;
+    margin-left: 20%;
+	/* margin: auto; */
+	color: red;
+	/* padding-top: 2px; */
+}
